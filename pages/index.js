@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <>
       <Layout title={"Inicio"}>
-        <div class="snap-center">
+        <div className="snap-center">
           <Portada />
         </div>
-        <div class="snap-center">
+        <div className="snap-center">
           <Prescencia/>
         </div>
       </Layout>
