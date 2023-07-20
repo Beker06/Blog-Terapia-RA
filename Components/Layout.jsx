@@ -16,8 +16,10 @@ const Layout = ({ title, children }) => {
             />
         </Head>
         <Navbar/>
-            <main>{children}</main>
-        <Footer/>
+          <main class="snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth">
+            {children}
+          </main>
+        {/* <Footer/> */}
     </>
   )
 }
