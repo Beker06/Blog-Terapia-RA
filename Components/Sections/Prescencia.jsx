@@ -3,10 +3,10 @@ import Section from '../Section'
 
 const Prescencia = () => {
   return (
-    <Section id="Portada" color="black">
-        Prescencia
+    <Section id="Prescencia" color="black" bg="#0F172A">
+        Presencia
     </Section>
   )
 }
 
-export default Prescencia
+export default Prescencia;

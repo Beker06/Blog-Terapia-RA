@@ -4,7 +4,7 @@ const Section = ({color, bg, id, children}) => {
     const textColor = `text-${color}`
   return (
     <section
-        className="landing-section bg-black h-screen w-screen text-center overflow-hidden relative"
+        className={`landing-section bg-[#01111E] h-screen w-screen text-center overflow-hidden relative`}
         data-header-color={color}
         id={id}
     >
@@ -13,4 +13,4 @@ const Section = ({color, bg, id, children}) => {
   )
 }
 
-export default Section
+export default Section;

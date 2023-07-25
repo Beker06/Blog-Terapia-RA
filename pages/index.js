@@ -1,4 +1,5 @@
 import Layout from '@/Components/Layout'
+import IntroduccionUno from '@/Components/Sections/IntroduccionUno'
 import Portada from '@/Components/Sections/Portada'
 import Prescencia from '@/Components/Sections/Prescencia'
 import React from 'react'
@@ -11,6 +12,9 @@ export default function Home() {
       <Layout title={"Inicio"}>
         <div className="snap-center">
           <Portada />
+        </div>
+        <div className='snao-center'>
+          <IntroduccionUno/>
         </div>
         <div className="snap-center">
           <Prescencia/>
