@@ -13,7 +13,7 @@ export default function Home() {
         <div className="snap-center">
           <Portada />
         </div>
-        <div className='snao-center'>
+        <div className='snap-center'>
           <IntroduccionUno/>
         </div>
         <div className="snap-center">
