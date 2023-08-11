@@ -44,12 +44,7 @@
   font-weight: 600;
 }
 
-@font-face {
-  font-family: Proxima Nova;
-  src: url(../public/Fonts/Proxima-Nova-Bold.otf);
-  font-style: normal;
-  font-weight: 700;
-}
+
 
 @font-face {
   font-family: Proxima Nova;
