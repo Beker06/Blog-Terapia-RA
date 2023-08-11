@@ -1,9 +1,24 @@
 import React from 'react'
 
-const ModalItem = () => {
+const ModalItem = ({
+  text = 'Default',
+  textColor = 'white',
+  onClick,
+}) => {
+
+
   return (
-    <div>ModalItem</div>
+    <div 
+      className = {`text-${textColor} `}
+    >
+      <span 
+        onClick = {onClick}
+        className='cursor-pointer underline'
+      >
+        {text}
+      </span>
+    </div>
   )
 }
 
-export default ModalItem
+export default ModalItem;

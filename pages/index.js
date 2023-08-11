@@ -1,5 +1,5 @@
 import Layout from '@/Components/Layout'
-import IntroduccionUno from '@/Components/Sections/IntroduccionUno'
+import IntroduccionUno from '@/Components/Sections/Introduccion/IntroduccionUno'
 import Portada from '@/Components/Sections/Portada'
 import Prescencia from '@/Components/Sections/Prescencia'
 import React from 'react'

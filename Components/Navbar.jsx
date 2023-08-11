@@ -8,6 +8,9 @@ const Navbar = () => {
 
   const router = useRouter();
   
+  
+  
+  
   return (
     <>
       <header
@@ -17,7 +20,31 @@ const Navbar = () => {
         <div className="flex ml-14 cursor-pointer w-[156px]" onClick={e => router.push("/")}>
           <Image className='w-full ' src={Logo} alt="Logo"/>
         </div>
-        <nav></nav>
+        <nav className = 'flex flex-col  w-full items-end '>
+          <ul className = ' flex justify-between w-[70%] pr-10 text-sm [&>li>a]:transition-colors [&>li>a]:duration-500 [&>li>a]:text-current [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2'>
+            <li><Link href='/#Portada'>Inicio</Link></li>
+            <li><Link href='/'>VR</Link></li>
+            <li><Link href='/'>Presencia</Link></li>
+            <li><Link href='/'>Ventajas</Link></li>
+            <li><Link href='/'>Futuro</Link></li>
+            <li><Link href='/'>Trastornos</Link></li>
+            <li><Link href='/'>Encuesta</Link></li>
+            <li><Link href='/'>Conclusion</Link></li>
+            <li><Link href='/'>Referencias</Link></li>
+          </ul>
+        </nav>
+        <div
+          id="menu-backdrop"
+          className={`
+            absolute bg-white/10 backdrop-blur-lg rounded
+            translate-x-[var(--left)] translate-y-[var(--top)]
+            left-0 top-0
+            w-[var(--width)] h-[var(--height)]
+            transition-all duration-500
+            ease-in-out opacity-0 -z-10
+          `}
+        >
+        </div>
       </header>
     </>
   )

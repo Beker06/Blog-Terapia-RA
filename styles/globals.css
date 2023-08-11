@@ -76,5 +76,5 @@ body {
   overflow-x: hidden;
   font-family: 'Proxima Nova';
   font-weight: 400;
-  scroll-behavior: smoot;
+  scroll-behavior: smooth;
 }
