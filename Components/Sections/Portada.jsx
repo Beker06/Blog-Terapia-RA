@@ -20,7 +20,7 @@ const Portada = () => {
       <div className='absolute flex flex-col w-[70%] leading-[56px] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-[48px]'>
         <span className='uppercase'>Sistema de Realidad Virtual para Terapia Emocional</span>
         <div className='flex flex-row text-[28px] mt-6 w-full justify-center'>
-          <button className='px-8 py-2 mx-4 text-black border-4 border border-white rounded bg-white leading-[36px] hover:text-[#00000090]  transition duration-200 ease-in-out hover:scale-[1.05]' onClick={() => router.push('/#IntroduccionUno')}>Leer</button>
+          <button className='px-8 py-2 mx-4 text-black border-4  border-white rounded bg-white leading-[36px] hover:text-[#00000090]  transition duration-200 ease-in-out hover:scale-[1.05]' onClick={() => router.push('/#IntroduccionUno')}>Leer</button>
           <Link href="./Documents/Investigacion Sistema de Realidad Virtual para Terapia Emocional.pdf" download target="_blank" rel="noopener"className='px-8 py-2 mx-4 border-4 bg-[#ffffff20] border-white rounded leading-[36px] hover:bg-[#0F172A] transition duration-200 ease-in-out hover:scale-[1.05]'>Descargar</Link>
         </div>
         
