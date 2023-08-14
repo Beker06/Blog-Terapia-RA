@@ -24,7 +24,7 @@ const Navbar = () => {
           <ul className = ' flex justify-between w-[70%] pr-10 text-lg [&>li>a]:transition-colors [&>li>a]:duration-500 [&>li>a]:text-current [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2'>
             <li><Link href='/#Portada'>Inicio</Link></li>
             <li><Link href='/#VR'>VR</Link></li>
-            <li><Link href='/'>Presencia</Link></li>
+            <li><Link href='/#Presencia'>Presencia</Link></li>
             <li><Link href='/'>Ventajas</Link></li>
             <li><Link href='/'>Futuro</Link></li>
             <li><Link href='/'>Trastornos</Link></li>
