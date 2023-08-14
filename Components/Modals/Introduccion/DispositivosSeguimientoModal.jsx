@@ -1,11 +1,11 @@
-import React, { useCallback, useState } from 'react'
-import Modal from '../Modal'
-import { useRealidadAumentadaModal } from '@/hooks/modals/useIntroducionModal';
 import Heading from '@/Components/Heading';
+import { useDispositivosSeguimientoModal } from '@/hooks/modals/useIntroducionModal';
+import React, { useCallback, useState } from 'react'
+import Modal from '../Modal';
 
-const RealidadAumentaModal = () => {
+const DispositivosSeguimientoModal = () => {
 
-  const thisModal = useRealidadAumentadaModal();
+    const thisModal = useDispositivosSeguimientoModal();
     const [isLoading, setIsLoading] = useState(false);
 
     const onToggle = useCallback(() => {
@@ -15,12 +15,11 @@ const RealidadAumentaModal = () => {
   const bodyContent = (
     <div className="flex flex-col gap-4">
         <Heading
-            title="Realidad Aumentada"
+            title="Dispositivos de Seguimiento"
         />
         <span className='text-white text-left '>
-          Añade o complementa nuestra realidad actual con objetos 
-          digitales y superposiciones de objetos digitales mejora 
-          nuestra presencia "aumentando" la realidad.
+            Fuantes de datos, sensores de posicionamiento de la 
+            cabeza, cámaras integradas, rastreadores oculares, etc.
         </span>
     </div>
   )
@@ -38,4 +37,4 @@ const RealidadAumentaModal = () => {
   )
 }
 
-export default RealidadAumentaModal
+export default DispositivosSeguimientoModal

@@ -29,3 +29,39 @@ export const useAdiccionesModal = create((set) => ({
     onOpen: () => set({isOpen: true}),
     onClose: () => set({isOpen: false})
 }))
+
+export const useRealidadVirtualModal = create((set) => ({
+    isOpen: false,
+    onOpen: () => set({isOpen: true}),
+    onClose: () => set({isOpen: false})
+}))
+
+export const useRealidadAumentadaModal = create((set) => ({
+    isOpen: false,
+    onOpen: () => set({isOpen: true}),
+    onClose: () => set({isOpen: false})
+}))
+
+export const useRealidadMixtaModal = create((set) => ({
+    isOpen: false,
+    onOpen: () => set({isOpen: true}),
+    onClose: () => set({isOpen: false})
+}))
+
+export const useGradosModal = create((set) => ({
+    isOpen: false,
+    onOpen: () => set({isOpen: true}),
+    onClose: () => set({isOpen: false})
+}))
+
+export const useDispositivosSeguimientoModal = create((set) => ({
+    isOpen: false,
+    onOpen: () => set({isOpen: true}),
+    onClose: () => set({isOpen: false})
+}))
+
+export const useDispositivosSenalizacionModal = create((set) => ({
+    isOpen: false,
+    onOpen: () => set({isOpen: true}),
+    onClose: () => set({isOpen: false})
+}))

@@ -1,13 +1,23 @@
+import GradosModal from '@/Components/Modals/Introduccion/GradosModal'
+import RealidadAumentaModal from '@/Components/Modals/Introduccion/RealidadAumentaModal'
+import RealidadMixtaModal from '@/Components/Modals/Introduccion/RealidadMixtaModal'
+import RealidadVirtualModal from '@/Components/Modals/Introduccion/RealidadVirtualModal'
 import ModalItem from '@/Components/Modals/ModalItem'
 import Section from '@/Components/Section'
+import { useGradosModal, useRealidadAumentadaModal, useRealidadMixtaModal, useRealidadVirtualModal } from '@/hooks/modals/useIntroducionModal'
 import React from 'react'
 
 const IntroduccionDos = () => {
+
+  const realidadVirtual = useRealidadVirtualModal();
+  const realidadAumentada =  useRealidadAumentadaModal();
+  const realidadMixta = useRealidadMixtaModal();
+  const grados = useGradosModal();
+
   return (
     <Section id="IntroduccionDos" color="white">
-        <div className='flex w-full mt-[8%]'>
+      <div className='flex w-full mt-[8%]'>
         <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
-
           <p>
             En comparación a algunos de los tratamientos de la 'psicología tradicional', 
             la realidad virtual tiene los siguientes beneficios para nuestra salud mental. 
@@ -43,30 +53,31 @@ const IntroduccionDos = () => {
             la realidad aumentada.
           </p>
           <div className='mt-8'>
-            {/* <ModalItem
-              text = 'Fobias y Miedos'
-              onClick={fobiasMiedosModal.onOpen}
+            <ModalItem
+              text = 'La Realidad Virtual'
+              onClick={realidadVirtual.onOpen}
             />
             <ModalItem
-              text = 'Estres'
-              onClick={estresModal.onOpen}
+              text = 'La Realidad Aumentada'
+              onClick={realidadAumentada.onOpen}
             />
             <ModalItem
-              text = 'Transtornos de Ansiedad'
-              onClick={ansiedadModal.onOpen}
+              text = 'Realidad Mixta o Fusionada'
+              onClick={realidadMixta.onOpen}
             />
             <ModalItem
-              text = 'Dolor Agudo y Cronico'
-              onClick={dolorAgudoyCronicoModal.onOpen}
+              text = '360 Grados'
+              onClick={grados.onOpen}
             />
-            <ModalItem
-              text = 'Adicciones'
-              onClick={adiccionesModal.onOpen}
-            /> */}
           </div>
         </div>
       </div>
+      <RealidadVirtualModal/>
+      <RealidadAumentaModal/>
+      <RealidadMixtaModal/>
+      <GradosModal/>
     </Section>
+    
   )
 }
 

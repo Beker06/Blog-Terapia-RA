@@ -1,11 +1,11 @@
-import React, { useCallback, useState } from 'react'
-import Modal from '../Modal'
-import { useRealidadAumentadaModal } from '@/hooks/modals/useIntroducionModal';
 import Heading from '@/Components/Heading';
+import { useDispositivosSenalizacionModal } from '@/hooks/modals/useIntroducionModal';
+import React, { useCallback, useState } from 'react'
+import Modal from '../Modal';
 
-const RealidadAumentaModal = () => {
+const DispositivosSenalizacionModal = () => {
 
-  const thisModal = useRealidadAumentadaModal();
+    const thisModal = useDispositivosSenalizacionModal();
     const [isLoading, setIsLoading] = useState(false);
 
     const onToggle = useCallback(() => {
@@ -15,12 +15,10 @@ const RealidadAumentaModal = () => {
   const bodyContent = (
     <div className="flex flex-col gap-4">
         <Heading
-            title="Realidad Aumentada"
+            title="Dispositivos de Señalizacion"
         />
         <span className='text-white text-left '>
-          Añade o complementa nuestra realidad actual con objetos 
-          digitales y superposiciones de objetos digitales mejora 
-          nuestra presencia "aumentando" la realidad.
+          Ratón de seis grados de libertad, trackball, joystick, etc.
         </span>
     </div>
   )
@@ -38,4 +36,4 @@ const RealidadAumentaModal = () => {
   )
 }
 
-export default RealidadAumentaModal
+export default DispositivosSenalizacionModal
