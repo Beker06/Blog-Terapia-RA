@@ -16,7 +16,7 @@ const IntroduccionDos = () => {
 
   return (
     <Section id="IntroduccionDos" color="white">
-      <div className='flex w-full mt-[8%]'>
+      <div className='flex w-full mt-[8%] justify-center'>
         <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
           <p>
             En comparación a algunos de los tratamientos de la 'psicología tradicional', 

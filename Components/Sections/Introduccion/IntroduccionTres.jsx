@@ -12,7 +12,7 @@ const IntroduccionTres = () => {
 
   return (
     <Section id="IntroduccionTres" color="white">
-      <div className='flex w-full mt-[8%]'>
+      <div className='flex w-full mt-[8%] justify-center'>
         <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
           <p>
             Para muchos médicos, la realidad virtual (VR) es principalmente 

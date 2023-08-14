@@ -18,25 +18,25 @@ const IntroduccionUno = () => {
 
   return (
     <Section id="IntroduccionUno" color='white'>
-      <div className='flex w-full mt-[8%]'>
+      <div className='flex w-full mt-[8%] justify-center'>
         <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
           <h1 className='uppercase text-2xl mb-6'>Introduccion</h1>
           <p>
-          La Realidad Virtual es una tecnología que ha pasado de ser una idea futurista a 
-          formar parte de nuestra vida cotidiana en la actualidad, ya que se utiliza en 
-          diferentes ámbitos como videojuegos, medicina y educación, entre otros. 
-          Aunque muchos la relacionan con películas de ciencia ficción, la Realidad Virtual 
-          es una herramienta real y efectiva en la psicología. En los últimos años, 
-          aplicaciones como Phobius y programas profesionales como Psious han permitido a 
-          personas con fobias superar sus miedos a través de esta tecnología. En Estados 
-          Unidos, la Realidad Virtual se utilizaba de manera efectiva para el tratamiento 
-          de trastornos psicológicos en veteranos de guerra. La Realidad Virtual en la 
-          psicología tiene como objetivo reflejar un mundo inmersivo e interactivo para 
-          realizar terapias lo más realistas posibles junto a los pacientes, por lo que 
-          su éxito depende de lo bien que se simula la experiencia del mundo real. 
-          Actualmente, cualquiera puede hacer uso de esta herramienta tanto de forma 
-          individual como en el seno de un tratamiento psicológico controlado por un 
-          especialista, siempre y cuando cuente con las gafas especiales necesarias para ello.
+            La Realidad Virtual es una tecnología que ha pasado de ser una idea futurista a 
+            formar parte de nuestra vida cotidiana en la actualidad, ya que se utiliza en 
+            diferentes ámbitos como videojuegos, medicina y educación, entre otros. 
+            Aunque muchos la relacionan con películas de ciencia ficción, la Realidad Virtual 
+            es una herramienta real y efectiva en la psicología. En los últimos años, 
+            aplicaciones como Phobius y programas profesionales como Psious han permitido a 
+            personas con fobias superar sus miedos a través de esta tecnología. En Estados 
+            Unidos, la Realidad Virtual se utilizaba de manera efectiva para el tratamiento 
+            de trastornos psicológicos en veteranos de guerra. La Realidad Virtual en la 
+            psicología tiene como objetivo reflejar un mundo inmersivo e interactivo para 
+            realizar terapias lo más realistas posibles junto a los pacientes, por lo que 
+            su éxito depende de lo bien que se simula la experiencia del mundo real. 
+            Actualmente, cualquiera puede hacer uso de esta herramienta tanto de forma 
+            individual como en el seno de un tratamiento psicológico controlado por un 
+            especialista, siempre y cuando cuente con las gafas especiales necesarias para ello.
           </p>
           <br/>
           <p>

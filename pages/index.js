@@ -4,6 +4,9 @@ import IntroduccionTres from '@/Components/Sections/Introduccion/IntroduccionTre
 import IntroduccionUno from '@/Components/Sections/Introduccion/IntroduccionUno'
 import Portada from '@/Components/Sections/Portada'
 import Prescencia from '@/Components/Sections/Prescencia'
+import VREvolucion from '@/Components/Sections/VR/VREvolucion'
+import VRInmersiva from '@/Components/Sections/VR/VRInmersiva'
+import VRSimulacion from '@/Components/Sections/VR/VRSimulacion'
 import React from 'react'
 
 //Esta es la pagina principal
@@ -23,6 +26,15 @@ export default function Home() {
         </div>
         <div className='snap-center'>
           <IntroduccionTres/>
+        </div>
+        <div className='snap-center'>
+          <VRInmersiva/>
+        </div>
+        <div className='snap-center'>
+          <VREvolucion/>
+        </div>
+        <div className='snap-center'>
+          <VRSimulacion/>
         </div>
         <div className="snap-center">
           <Prescencia/>
