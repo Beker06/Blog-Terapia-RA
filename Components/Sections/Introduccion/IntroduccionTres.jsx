@@ -1,8 +1,11 @@
+import Section from '@/Components/Section'
 import React from 'react'
 
 const IntroduccionTres = () => {
   return (
-    <div>IntroduccionTres</div>
+    <Section id="IntroduccionTres" color="white">
+        Presencia
+    </Section>
   )
 }
 

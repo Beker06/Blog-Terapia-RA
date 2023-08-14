@@ -17,7 +17,7 @@ const IntroduccionUno = () => {
   const adiccionesModal = useAdiccionesModal();
 
   return (
-    <Section id="IntroduccionUno">
+    <Section id="IntroduccionUno" color='white'>
       <div className='flex w-full mt-[8%]'>
         <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
           <h1 className='uppercase text-2xl mb-6'>Introduccion</h1>
@@ -51,27 +51,27 @@ const IntroduccionUno = () => {
             los siguientes casos:
           </p>
           <div className='mt-8'>
-          <ModalItem
-            text = 'Fobias y Miedos'
-            onClick={fobiasMiedosModal.onOpen}
-          />
-          <ModalItem
-            text = 'Estres'
-            onClick={estresModal.onOpen}
-          />
-          <ModalItem
-            text = 'Transtornos de Ansiedad'
-            onClick={ansiedadModal.onOpen}
-          />
-          <ModalItem
-            text = 'Dolor Agudo y Cronico'
-            onClick={dolorAgudoyCronicoModal.onOpen}
-          />
-          <ModalItem
-            text = 'Adicciones'
-            onClick={adiccionesModal.onOpen}
-          />
-        </div>
+            <ModalItem
+              text = 'Fobias y Miedos'
+              onClick={fobiasMiedosModal.onOpen}
+            />
+            <ModalItem
+              text = 'Estres'
+              onClick={estresModal.onOpen}
+            />
+            <ModalItem
+              text = 'Transtornos de Ansiedad'
+              onClick={ansiedadModal.onOpen}
+            />
+            <ModalItem
+              text = 'Dolor Agudo y Cronico'
+              onClick={dolorAgudoyCronicoModal.onOpen}
+            />
+            <ModalItem
+              text = 'Adicciones'
+              onClick={adiccionesModal.onOpen}
+            />
+          </div>
         </div>
       </div>
       <FobiasMiedosModal/>
