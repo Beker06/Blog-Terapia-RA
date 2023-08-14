@@ -9,7 +9,7 @@ const ModalItem = ({
 
   return (
     <div 
-      className = {`text-${textColor} `}
+      className = {`text-${textColor} mb-2`}
     >
       <span 
         onClick = {onClick}

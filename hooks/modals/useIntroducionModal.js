@@ -11,3 +11,21 @@ export const useEstresModal = create((set) => ({
     onOpen: () => set({isOpen: true}),
     onClose: () => set({isOpen: false})
 }))
+
+export const useAnsiedadModal = create((set) => ({
+    isOpen: false,
+    onOpen: () => set({isOpen: true}),
+    onClose: () => set({isOpen: false})
+}))
+
+export const useDolorAyCModal = create((set) => ({
+    isOpen: false,
+    onOpen: () => set({isOpen: true}),
+    onClose: () => set({isOpen: false})
+}))
+
+export const useAdiccionesModal = create((set) => ({
+    isOpen: false,
+    onOpen: () => set({isOpen: true}),
+    onClose: () => set({isOpen: false})
+}))
