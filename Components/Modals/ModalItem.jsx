@@ -9,7 +9,7 @@ const ModalItem = ({
 
   return (
     <div 
-      className = {`text-${textColor} mb-2`}
+      className = {`text-${textColor} mb-2 transition hover:scale-[1.01]`}
     >
       <span 
         onClick = {onClick}
