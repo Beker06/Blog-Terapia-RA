@@ -65,9 +65,6 @@ export default function Home() {
           <ConclusionDos/>
         </div>
         <div className="snap-center">
-          <Aplicaciones/>
-        </div>
-        <div className="snap-center">
           <Referencias/>
         </div>
       </Layout>
