@@ -20,7 +20,7 @@ const RealidadMixtaModal = () => {
           <span className='text-white text-left '>
             Utiliza una lente holográfica para hacer converger la VR 
             y la RA en la que los objetos virtuales interactúan con 
-            los objetos del mundo real
+            los objetos del mundo real.
           </span>
       </div>
   )

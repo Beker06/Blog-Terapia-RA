@@ -26,11 +26,11 @@ const Navbar = () => {
             <li><Link href='/#VR'>VR</Link></li>
             <li><Link href='/#Presencia'>Presencia</Link></li>
             <li><Link href='/'>Ventajas</Link></li>
-            <li><Link href='/'>Futuro</Link></li>
+            <li><Link href='/#Futuras'>Futuro</Link></li>
             <li><Link href='/'>Trastornos</Link></li>
             <li><Link href='/'>Encuesta</Link></li>
-            <li><Link href='/'>Conclusion</Link></li>
-            <li><Link href='/'>Referencias</Link></li>
+            <li><Link href='/#Conclusion'>Conclusion</Link></li>
+            <li><Link href='/#Referencias'>Referencias</Link></li>
           </ul>
         </nav>
         <div

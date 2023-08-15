@@ -1,9 +1,16 @@
 import Layout from '@/Components/Layout'
+import Aplicaciones from '@/Components/Sections/Aplicaciones'
+import ConclusionDos from '@/Components/Sections/Conclusion/ConclusionDos'
+import ConclusionUno from '@/Components/Sections/Conclusion/ConclusionUno'
+import Futuras from '@/Components/Sections/Futuras'
 import IntroduccionDos from '@/Components/Sections/Introduccion/IntroduccionDos'
 import IntroduccionTres from '@/Components/Sections/Introduccion/IntroduccionTres'
 import IntroduccionUno from '@/Components/Sections/Introduccion/IntroduccionUno'
 import Portada from '@/Components/Sections/Portada'
+import Neurociencia from '@/Components/Sections/Prescencia/Neurociencia'
 import Prescencia from '@/Components/Sections/Prescencia/Prescencia'
+import PresenciaDos from '@/Components/Sections/Prescencia/PresenciaDos'
+import Referencias from '@/Components/Sections/Referencias'
 import VREvolucion from '@/Components/Sections/VR/VREvolucion'
 import VRInmersiva from '@/Components/Sections/VR/VRInmersiva'
 import VRSimulacion from '@/Components/Sections/VR/VRSimulacion'
@@ -38,6 +45,30 @@ export default function Home() {
         </div>
         <div className="snap-center">
           <Prescencia/>
+        </div>
+        <div className="snap-center">
+          <PresenciaDos/>
+        </div>
+        <div className="snap-center">
+          <Neurociencia/>
+        </div>
+        <div className='snap-center'>
+          <Futuras/>
+        </div>
+        <div className="snap-center">
+          <Aplicaciones/>
+        </div>
+        <div className="snap-center">
+          <ConclusionUno/>
+        </div>
+        <div className="snap-center">
+          <ConclusionDos/>
+        </div>
+        <div className="snap-center">
+          <Aplicaciones/>
+        </div>
+        <div className="snap-center">
+          <Referencias/>
         </div>
       </Layout>
     </>
