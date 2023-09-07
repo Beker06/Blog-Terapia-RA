@@ -29,10 +29,10 @@ const Trastornos = () => {
 
   return (
     <Section id='Trastornos' color="white">
-        <div className='flex w-full mt-[8%] justify-center'>
-            <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
+        <div className='flex w-full mt-[8%] justify-center h-screen'>
+            <div className='flex flex-col text-white w-[70%] h-screen text-justify text-lg mx-[10%]'>
                 <h1 className='uppercase text-2xl mb-6'>VR como Tratamiento Para Trastornos y Enfermedades Mentales</h1>
-                <div className='grid grid-cols-4 grid-rows-2 gap-x-4 gap-y-4'>
+                <div className='max-h-[70%] grid grid-cols-4 grid-rows-2 gap-x-4 gap-y-4'>
                   <Card 
                     title='Dolor'
                     img = {Dolor}
