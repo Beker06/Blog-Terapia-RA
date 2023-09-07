@@ -28,7 +28,7 @@ const Portada = () => {
       <div className='absolute text-white bottom-3 left-10 flex flex-col text-left'>
         <span>Pino Alvarez Oscar Brandon - 17210622</span>
         <span>Reyes Espinoza Eduardo - 19211716</span>
-        <span>Vazquez Parra Eliam Jesus - 19211749</span>
+        <span>Vazquez Parra Eliam Jesus - 19211748</span>
         <span>Terrazas Rojo Miguel Arturo - 19211740</span>
         <span>Diaz Chavelas Jafet Misael - 19211628</span>
       </div>

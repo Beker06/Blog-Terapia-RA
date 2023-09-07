@@ -11,9 +11,11 @@ import Neurociencia from '@/Components/Sections/Prescencia/Neurociencia'
 import Prescencia from '@/Components/Sections/Prescencia/Prescencia'
 import PresenciaDos from '@/Components/Sections/Prescencia/PresenciaDos'
 import Referencias from '@/Components/Sections/Referencias'
+import Trastornos from '@/Components/Sections/Trastornos'
 import VREvolucion from '@/Components/Sections/VR/VREvolucion'
 import VRInmersiva from '@/Components/Sections/VR/VRInmersiva'
 import VRSimulacion from '@/Components/Sections/VR/VRSimulacion'
+import Ventajas from '@/Components/Sections/Ventajas'
 import React from 'react'
 
 //Esta es la pagina principal
@@ -52,8 +54,14 @@ export default function Home() {
         <div className="snap-center">
           <Neurociencia/>
         </div>
+        <div className="snap-center">
+          <Ventajas/>
+        </div>
         <div className='snap-center'>
           <Futuras/>
+        </div>
+        <div className="snap-center">
+          <Trastornos/>
         </div>
         <div className="snap-center">
           <Aplicaciones/>
