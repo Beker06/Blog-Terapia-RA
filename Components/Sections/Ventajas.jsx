@@ -27,8 +27,8 @@ const Ventajas = () => {
   return (
     <Section id='Ventajas' color='white'>
         <div className='flex w-full mt-[8%] justify-center'>
-            <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
-                <h1 className='uppercase text-2xl mb-6'>Las ventajas de la simulación en la práctica clínica</h1>
+            <div className='flex flex-col text-white w-[70%] text-justify md:text-lg text-xs mx-[10%]'>
+                <h1 className='uppercase md:text-2xl text-lg md:mb-6 mb-2 leading-6 tracking-tighter'>Las ventajas de la simulación en la práctica clínica</h1>
                 <p>
                     El aprendizaje experimental tiene una larga historia 
                     como técnica terapéutica, y el poder de simulación de 
@@ -48,8 +48,8 @@ const Ventajas = () => {
                     cuestionar más fácilmente las suposiciones individuales 
                     inadaptadas.
                 </p>
-                <br/>
-                <p>
+                <br className='md:block hidden'/>
+                <p className='md:block hidden'>
                     La VR también puede describirse como un sistema imaginal 
                     avanzado: una forma experiencial de imágenes que es tan 
                     eficaz como la realidad para inducir respuestas emocionales. 
@@ -68,8 +68,8 @@ const Ventajas = () => {
                     reales, respondieron a la situación a nivel subjetivo, 
                     conductual y fisiológico como si fuera real.
                 </p>
-                <br/>
-                <p>
+                <br className='md:block hidden'/>
+                <p className='md:block hidden'>
                     La VR también es capaz de inducir respuestas emocionales en 
                     pacientes clínicos. Como se describe más adelante, numerosos 
                     estudios han demostrado que la VR es capaz de aumentar la 

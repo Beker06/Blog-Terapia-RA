@@ -5,8 +5,8 @@ const VRInmersiva = () => {
   return (
     <Section id="VR" color='white'>
         <div className='flex w-full mt-[8%] justify-center'>
-            <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
-                <h1 className='uppercase text-2xl mb-6'>VR inmersiva y no inmersiva</h1>
+            <div className='flex flex-col text-white w-[70%] text-justify md:text-lg text-xs mx-[10%]'>
+                <h1 className='uppercase md:text-2xl text-lg md:mb-6 mb-2'>VR inmersiva y no inmersiva</h1>
                 <p>
                     La tecnología de VR se suele clasificar como inmersiva o no inmersiva.
                 </p>

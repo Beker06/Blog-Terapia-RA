@@ -86,7 +86,6 @@ const Modal = ({
               lg:h-auto
               md:h-auto
               border-0
-            
               rounded-lg 
               shadow-lg 
               relative 

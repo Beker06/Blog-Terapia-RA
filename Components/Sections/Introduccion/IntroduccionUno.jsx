@@ -19,8 +19,8 @@ const IntroduccionUno = () => {
   return (
     <Section id="IntroduccionUno" color='white'>
       <div className='flex w-full mt-[8%] justify-center'>
-        <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
-          <h1 className='uppercase text-2xl mb-6'>Introduccion</h1>
+        <div className='flex flex-col text-white w-[70%] text-justify md:text-lg text-xs mx-[10%]'>
+          <h1 className='uppercase md:text-2xl text-lg md:mb-6 mb-2'>Introduccion</h1>
           <p>
             La Realidad Virtual es una tecnología que ha pasado de ser una idea futurista a 
             formar parte de nuestra vida cotidiana en la actualidad, ya que se utiliza en 
@@ -30,7 +30,7 @@ const IntroduccionUno = () => {
             aplicaciones como Phobius y programas profesionales como Psious han permitido a 
             personas con fobias superar sus miedos a través de esta tecnología. En Estados 
             Unidos, la Realidad Virtual se utilizaba de manera efectiva para el tratamiento 
-            de trastornos psicológicos en veteranos de guerra. La Realidad Virtual en la 
+            de trastornos psicológicos en veteranos de guerra. </p><p className='md:block hidden'>La Realidad Virtual en la 
             psicología tiene como objetivo reflejar un mundo inmersivo e interactivo para 
             realizar terapias lo más realistas posibles junto a los pacientes, por lo que 
             su éxito depende de lo bien que se simula la experiencia del mundo real. 
@@ -50,7 +50,7 @@ const IntroduccionUno = () => {
             los psicólogos, se recomienda usar la realidad virtual en la psicología para 
             los siguientes casos:
           </p>
-          <div className='mt-8'>
+          <div className='md:mt-8 mt-2'>
             <ModalItem
               text = 'Fobias y Miedos'
               onClick={fobiasMiedosModal.onOpen}

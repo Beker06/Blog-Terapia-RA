@@ -17,7 +17,7 @@ const IntroduccionDos = () => {
   return (
     <Section id="IntroduccionDos" color="white">
       <div className='flex w-full mt-[8%] justify-center'>
-        <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
+        <div className='flex flex-col text-white w-[70%] text-justify md:text-lg text-xs mx-[10%]'>
           <p>
             En comparación a algunos de los tratamientos de la 'psicología tradicional', 
             la realidad virtual tiene los siguientes beneficios para nuestra salud mental. 
@@ -34,8 +34,8 @@ const IntroduccionDos = () => {
             aprender a operar un corazón o mejorar la calidad de un entrenamiento 
             deportivo para obtener el máximo rendimiento.
           </p>
-          <br/>
-          <p>
+          <br className='md:block hidden'/>
+          <p className='md:block hidden'>
             Esto, que puede parecer extremadamente futurista, no tiene un origen tan 
             reciente como podríamos pensar. De hecho, muchos consideran que uno de los 
             primeros dispositivos de Realidad Virtual fue la denominada Sensorama, una 
@@ -52,7 +52,7 @@ const IntroduccionDos = () => {
             tipos de experiencias inmersivas o de realidad alterada, no es lo mismo que 
             la realidad aumentada.
           </p>
-          <div className='mt-8'>
+          <div className='md:mt-8 mt-4'>
             <ModalItem
               text = 'La Realidad Virtual'
               onClick={realidadVirtual.onOpen}

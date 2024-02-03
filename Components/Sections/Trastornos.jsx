@@ -30,46 +30,46 @@ const Trastornos = () => {
   return (
     <Section id='Trastornos' color="white">
         <div className='flex w-full mt-[8%] justify-center'>
-            <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
-                <h1 className='uppercase text-2xl mb-6'>VR como Tratamiento Para Trastornos y Enfermedades Mentales</h1>
-                <div className='grid grid-cols-4 grid-rows-2 gap-x-4 gap-y-4'>
-                  <Card 
-                    title='Dolor'
-                    img = {Dolor}
-                    onClick={dolor.onOpen}
-                  />
-                  <Card 
-                    title='Ansiedad'
-                    img = {Ansiedad}
-                    onClick={ansiedad.onOpen}
-                  />
-                  <Card 
-                    title='Psicosis'
-                    img = {Psicosis}
-                    onClick={psicosis.onOpen}
-                  />
-                  <Card 
-                    title='Trastornos Alimenticios'
-                    img = {Alimenticios}
-                    onClick={alimenticios.onOpen}
-                  />
-                  <Card 
-                    title='Adicciones'
-                    img = {Adicciones}
-                    onClick={adicciones.onOpen}
-                  />
-                  <Card 
-                    title='Autismo'
-                    img = {Autismo}
-                    onClick={autismo.onOpen}
-                  />
-                  <Card 
-                    title='Otros'
-                    img = {Otros}
-                    onClick={otros.onOpen}
-                  />
-                </div>
+          <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
+            <h1 className='uppercase md:text-2xl text-lg mb-6 tracking-tight leading-5'>VR como Tratamiento Para Trastornos y Enfermedades Mentales</h1>
+            <div className='grid md:grid-cols-4 grid-cols-3 md:grid-rows-2 md:gap-4 gap-1'>
+              <Card 
+                title='Dolor'
+                img = {Dolor}
+                onClick={dolor.onOpen}
+              />
+              <Card 
+                title='Ansiedad'
+                img = {Ansiedad}
+                onClick={ansiedad.onOpen}
+              />
+              <Card 
+                title='Psicosis'
+                img = {Psicosis}
+                onClick={psicosis.onOpen}
+              />
+              <Card 
+                title='Trastornos Alimenticios'
+                img = {Alimenticios}
+                onClick={alimenticios.onOpen}
+              />
+              <Card 
+                title='Adicciones'
+                img = {Adicciones}
+                onClick={adicciones.onOpen}
+              />
+              <Card 
+                title='Autismo'
+                img = {Autismo}
+                onClick={autismo.onOpen}
+              />
+              <Card 
+                title='Otros'
+                img = {Otros}
+                onClick={otros.onOpen}
+              />
             </div>
+          </div>
         </div>
         <AdiccionesModal/>
         <AlimenticiosModal/>

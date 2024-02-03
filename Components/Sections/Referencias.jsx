@@ -6,8 +6,8 @@ const Referencias = () => {
   return (
     <Section id="Referencias" color='white'>
         <div className='flex w-full mt-[8%] justify-center'>
-          <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
-            <h1 className='uppercase text-2xl mb-6'>Referencias</h1>
+          <div className='flex flex-col text-white w-[70%] text-justify md:text-lg text-xs mx-[10%]'>
+            <h1 className='uppercase md:text-2xl text-lg md:mb-6 mb-2'>Referencias</h1>
             <ul className='list-disc'>
               <li>MundoPsicólogos. (s. f.). ¿Sabes cómo se usa la realidad virtual en la psicología? [Blog post]. Recuperado el 04 de marzo de 2023, de <a href='https://www.mundopsicologos.com/articulos/sabes-como-se-usa-la-realidad-virtual-en-la-psicologia' target="_blank" className='underline'>https://www.mundopsicologos.com/articulos/sabes-como-se-usa-la-realidad-virtual-en-la-psicologia</a></li>
               <br/>
@@ -21,11 +21,11 @@ const Referencias = () => {
               <br/>
               <li>Iberdrola. (s. f.). Realidad virtual y tecnología inmersiva. Recuperado el 04 de marzo de 2023, de <a href='https://www.iberdrola.com/innovacion/realidad-virtual' target="_blank" className='underline'>https://www.iberdrola.com/innovacion/realidad-virtual</a></li>
               <br/>
-              <li>University of Toronto Libraries. (s. f.). APA Citation Style, 7th edition: Web pages and social media. Recuperado el 04 de marzo de 2023, de <a href='https://guides.library.utoronto.ca/c.php?g=607624&p=4938314' target="_blank" className='underline'>https://guides.library.utoronto.ca/c.php?g=607624&p=4938314</a></li>
-              <br/>
-              <li>Freeman, D., Reeve, S., Robinson, A., Ehlers, A., Clark, D., Spanlang, B., & Slater, M. (2020). Virtual reality in the assessment, understanding, and treatment of mental health disorders. Psychological Medicine, 50(10), 1705-1709. <a href='https://doi.org/10.1017/S0033291720000119' target="_blank" className='underline'>https://doi.org/10.1017/S0033291720000119</a></li>
-              <br/>
-              <li>Gibbs, L. (2021, June 28). How virtual reality is helping to improve health care. Time. Recuperado el 04 de marzo de 2023, de <a href='https://time.com/6155085/virtual-reality-improve-health-care/' target="_blank" className='underline'>https://time.com/6155085/virtual-reality-improve-health-care/</a></li>
+              <li className='md:block hidden'>University of Toronto Libraries. (s. f.). APA Citation Style, 7th edition: Web pages and social media. Recuperado el 04 de marzo de 2023, de <a href='https://guides.library.utoronto.ca/c.php?g=607624&p=4938314' target="_blank" className='underline'>https://guides.library.utoronto.ca/c.php?g=607624&p=4938314</a></li>
+              <br className='md:block hidden'/>
+              <li className='md:block hidden'>Freeman, D., Reeve, S., Robinson, A., Ehlers, A., Clark, D., Spanlang, B., & Slater, M. (2020). Virtual reality in the assessment, understanding, and treatment of mental health disorders. Psychological Medicine, 50(10), 1705-1709. <a href='https://doi.org/10.1017/S0033291720000119' target="_blank" className='underline'>https://doi.org/10.1017/S0033291720000119</a></li>
+              <br className='md:block hidden'/>
+              <li className='md:block hidden'>Gibbs, L. (2021, June 28). How virtual reality is helping to improve health care. Time. Recuperado el 04 de marzo de 2023, de <a href='https://time.com/6155085/virtual-reality-improve-health-care/' target="_blank" className='underline'>https://time.com/6155085/virtual-reality-improve-health-care/</a></li>
             </ul>
           </div>
         </div>

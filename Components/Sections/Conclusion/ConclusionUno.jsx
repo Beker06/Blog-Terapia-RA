@@ -5,8 +5,8 @@ const ConclusionUno = () => {
   return (
     <Section id="Conclusion" color='white'>
         <div className='flex w-full mt-[8%] justify-center'>
-            <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
-                <h1 className='uppercase text-2xl mb-6'>Conclusión</h1>
+            <div className='flex flex-col text-white w-[70%] text-justify md:text-lg text-xs mx-[10%]'>
+                <h1 className='uppercase md:text-2xl text-lg md:mb-6 mb-2'>Conclusión</h1>
                 <p>
                   La terapia de realidad virtual (TRV) es una técnica de tratamiento innovadora 
                   que ha demostrado ser efectiva en diversas áreas de la salud mental, incluyendo 
@@ -22,14 +22,14 @@ const ConclusionUno = () => {
                   amplios para confirmar estos hallazgos.
                 </p>
                 <br/>
-                <p>
+                <p className='md:block hidden'>
                   Desde el punto de vista tecnológico, la realidad virtual (VR) es un conjunto 
                   de tecnologías de fantasía: un casco, unos rastreadores y un sistema de 
                   visualización en 3D. Sin embargo, desde el punto de vista psicológico, la 
                   VR es a la vez una tecnología de simulación, una tecnología cognitiva y una 
                   tecnología corporal.
                 </p>
-                <br/>
+                <br className='md:block hidden'/>
                 <p>
                   En primer lugar, la VR es una forma de simulación de la realidad. En concreto, 
                   lo que distingue a la VR de otros medios es la sensación de presencia: la 
@@ -41,8 +41,8 @@ const ConclusionUno = () => {
                   imaginería que es tan eficaz como la realidad a la hora de inducir respuestas 
                   emocionales.
                 </p>
-                <br/>
-                <p>
+                <br className='md:block hidden'/>
+                <p className='md:block hidden'>
                   Además, la VR es también una tecnología cognitiva capaz de reproducir los 
                   mecanismos que subyacen al funcionamiento del cerebro. Como han sugerido 
                   recientemente las investigaciones neurocientíficas, nuestros cerebros son 

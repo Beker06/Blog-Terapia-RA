@@ -5,8 +5,8 @@ const Aplicaciones = () => {
   return (
     <Section id="Apliaciones" color='white'>
         <div className='flex w-full mt-[8%] justify-center'>
-            <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
-                <h1 className='uppercase text-2xl mb-6'>Aplicaciones Clínicas y Recomendaciones</h1>
+            <div className='flex flex-col text-white w-[70%] text-justify md:text-lg text-sm mx-[10%]'>
+                <h1 className='uppercase md:text-2xl text-lg md:mb-6 mb-2'>Aplicaciones Clínicas y Recomendaciones</h1>
                 <p>
                     El potencial clínico de la VR está claramente avalado por los resultados clínicos. 
                     Dos meta-revisiones recientes que evalúan más de 53 revisiones sistemáticas y 

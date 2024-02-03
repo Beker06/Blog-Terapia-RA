@@ -5,7 +5,7 @@ const ConclusionDos = () => {
   return (
     <Section id="ConclusionDos" color='white'>
         <div className='flex w-full mt-[8%] justify-center'>
-            <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
+            <div className='flex flex-col text-white w-[70%] text-justify md:text-lg text-xs mx-[10%]'>
                 <p>
                   Por último, la VR también puede considerarse una tecnología encarnada por 
                   su capacidad de engañar a los mecanismos cerebrales que regulan la experiencia 
@@ -35,8 +35,8 @@ const ConclusionDos = () => {
                   que harán más accesible el tratamiento de la salud mental a las personas que 
                   no tienen tiempo o dinero suficientes para ver a un clínico en persona.
                 </p>
-                <br/>
-                <p>
+                <br className='md:block hidden'/>
+                <p className='md:block hidden'>
                   Sin embargo, la VR, como cualquier otra tecnología, no es más que una herramienta, 
                   que puede utilizarse para bien o para mal. En este sentido, lo que más interesa 
                   a la psicología clínica es comprender los fenómenos clínicos y no dejarse llevar 

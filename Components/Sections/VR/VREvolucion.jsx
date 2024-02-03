@@ -5,9 +5,9 @@ const VREvolucion = () => {
   return (
     <Section id="EvolucionVR" color='white'>
         <div className='flex w-full mt-[7%] justify-center'>
-            <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
-                <h1 className='uppercase text-2xl mb-6'>La evolución de la tecnología de VR</h1>
-                <p>
+            <div className='flex flex-col text-white w-[70%] text-justify md:text-lg text-xs mx-[10%] leading-4'>
+                <h1 className='uppercase md:text-2xl text-lg md:mb-6 mb-2 tracking-tighter'>La evolución de la tecnología de VR</h1>
+                <p className='md:block hidden'>
                     El uso de la VR en la práctica clínica ha estado limitado durante mucho tiempo 
                     por dos factores principales: la falta de usabilidad y el coste de las herramientas 
                     virtuales.
@@ -20,7 +20,7 @@ const VREvolucion = () => {
                     a la baja calidad de la pantalla) y los dolores de cuello (debido al peso del HMD), limitando 
                     su uso con los pacientes.
                 </p>
-                <br/>
+                <br />
                 <p>
                     Además, el típico sistema de VR inmersiva requería unos HMD caros, que a menudo costaban más 
                     de 10.000 dólares, combinados con ordenadores de gama alta igualmente caros y equipados con tarjetas 
@@ -37,14 +37,14 @@ const VREvolucion = () => {
                     dólares hasta llegar a unos pocos cientos, el precio de los sistemas de VR autónomos más baratos.
                 </p>
                 <br/>
-                <p>
+                <p className='md:block hidden'>
                     La forma más sencilla y barata de VR no comprende más que un par de lentes de aumento y una lámina 
                     de cartón. Se vende por 15-20 dólares y utiliza un smartphone estándar como rastreador y pantalla y 
                     para generar el entorno 3D. La VR basada en el móvil puso la VR al alcance incluso de los usuarios 
                     ocasionales que poseen un smartphone, ampliando su disponibilidad a la población en general.
                 </p>
                 <br/>
-                <p>
+                <p className='md:block hidden'>
                     La VR basada en el móvil es especialmente adecuada para un contenido de VR específico que puede ser 
                     muy útil para la exposición basada en la VR: los vídeos de 360 grados. Estos vídeos, también conocidos 
                     como vídeos inmersivos o vídeos esféricos, son grabaciones de vídeo especiales creadas mediante una 

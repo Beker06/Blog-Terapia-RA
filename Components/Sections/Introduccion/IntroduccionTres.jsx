@@ -13,7 +13,7 @@ const IntroduccionTres = () => {
   return (
     <Section id="IntroduccionTres" color="white">
       <div className='flex w-full mt-[8%] justify-center'>
-        <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
+        <div className='flex flex-col text-white w-[70%] text-justify md:text-lg text-xs mx-[10%]'>
           <p>
             Para muchos médicos, la realidad virtual (VR) es principalmente 
             un conjunto de tecnologías de lujo: un ordenador o dispositivo 
@@ -39,7 +39,7 @@ const IntroduccionTres = () => {
             interactuar con el entorno virtual. De hecho, hay muchos dispositivos 
             de entrada diferentes que pueden utilizarse en un sistema de VR:
           </p>
-          <div className='mt-8 mb-8'>
+          <div className='md:mt-8 md:mb-8 mt-4 mb-4'>
             <ModalItem
               text = 'Dispositivos de Seguimiento'
               onClick={dispositivosSeguimiento.onOpen}
@@ -58,7 +58,7 @@ const IntroduccionTres = () => {
             háptica (táctil).
           </p>
           <br/>
-          <p>
+          <p className='md:block hidden'>
             Por último, el escenario simulado es el entorno virtual (VE) 3D generado 
             por ordenador. Los VE están diseñados para ser explorados, de modo que 
             los usuarios pueden interactuar (por ejemplo, mover, empujar, coger, 

@@ -5,8 +5,8 @@ const Prescencia = () => {
   return (
     <Section id="Presencia" color="white">
       <div className='flex w-full mt-[8%] justify-center'>
-        <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
-          <h1 className='uppercase text-2xl mb-6'>¿Qué es la presencia?</h1>
+        <div className='flex flex-col text-white w-[70%] text-justify md:text-lg text-xs mx-[10%]'>
+          <h1 className='uppercase md:text-2xl text-lg md:mb-6 mb-2'>¿Qué es la presencia?</h1>
           <p>
             Las investigaciones sobre la VR incluyen varias descripciones de usuarios que 
             creen, al menos durante un breve periodo de tiempo, que están "dentro" y 
@@ -22,8 +22,8 @@ const Prescencia = () => {
             el efecto que sienten las personas cuando interactúan y se sumergen en entornos 
             virtuales".
           </p>
-          <br/>
-          <p>
+          <br className='md:block hidden'/>
+          <p className='md:block hidden'>
             Siguiendo este planteamiento, la Sociedad Internacional para la Investigación 
             de la Presencia define hoy la "presencia" (una forma abreviada del término 
             "telepresencia") como "un estado psicológico en el que, aunque parte o toda 

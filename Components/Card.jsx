@@ -6,20 +6,22 @@ const Card = ({title = "Titulo", img, onClick}) => {
     <div className='
       flex 
       flex-col 
-      border-4 
+      md:border-4 
+      border-2
       border-white 
       rounded 
-      p-4 
+      mb:p-4
+      pt-2
       cursor-pointer 
       transition 
       hover:scale-105 
       delay-50 duration-150 ease-in-out'
       onClick={onClick}
     >
-      <h1 className='text-[20px] mb-[5%]'>{title}</h1>
+      <h1 className='md:text-[20px] text-xs mb-[5%] md:mx-0 mx-1'>{title}</h1>
       <div className='flex w-[100%] h-[85%] items-center justify-center overflow-hidden'>
           <Image
-          className='flex  h-[100%] rounded-lg object-cover'
+          className='flex  h-[100%] md:rounded-lg rounded-none object-cover'
           src={img} 
           alt='Imagen-Card'
         />

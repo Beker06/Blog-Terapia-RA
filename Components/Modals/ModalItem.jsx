@@ -9,11 +9,11 @@ const ModalItem = ({
 
   return (
     <div 
-      className = {`text-${textColor} mb-2 transition hover:scale-[1.01]`}
+      className = {`text-${textColor} md:mb-2 mb-1 transition hover:scale-[1.01]`}
     >
       <span 
         onClick = {onClick}
-        className='cursor-pointer underline'
+        className='cursor-pointer md:underline'
       >
         {text}
       </span>

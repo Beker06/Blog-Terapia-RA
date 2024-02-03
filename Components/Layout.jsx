@@ -32,8 +32,8 @@ const Layout = ({ title, children }) => {
 
     const observerOptions = {
       root: null,
-      rootMargin: "0px", // en cuanto se vea el elemento
-      threshold: 0.9, // porcentaje de visibilidad
+      rootMargin: "0px", 
+      threshold: 0.9, 
     }
 
     const observer = new IntersectionObserver((entries) => {

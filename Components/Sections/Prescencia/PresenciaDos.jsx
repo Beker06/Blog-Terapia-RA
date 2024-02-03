@@ -5,7 +5,7 @@ const PresenciaDos = () => {
   return (
     <Section id="PresenciaDos" color="white">
       <div className='flex w-full mt-[8%] justify-center'>
-      <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
+        <div className='flex flex-col text-white w-[70%] text-justify md:text-lg text-xs mx-[10%]'>
           <p>
             Según esta definición, la presencia se produce mediante la desaparición del 
             medio de la atención consciente del sujeto. Como aclaran Lombard y Ditton 

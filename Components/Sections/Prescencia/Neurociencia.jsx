@@ -5,8 +5,8 @@ const Neurociencia = () => {
   return (
     <Section id="Neurociencia" color="white">
       <div className='flex w-full mt-[8%] justify-center'>
-        <div className='flex flex-col text-white w-[70%] text-justify text-lg mx-[10%]'>
-          <h1 className='uppercase text-2xl mb-6'>La Neurociencia de la Presencia</h1>
+        <div className='flex flex-col text-white w-[70%] text-justify md:text-lg text-xs mx-[10%]'>
+          <h1 className='uppercase md:text-2xl text-lg md:mb-6 mb-2 tracking-tight leading-5'>La Neurociencia de la Presencia</h1>
           <p>
             La "codificación predictiva" es una hipótesis cada vez más popular en la 
             neurociencia que sugiere que nuestro cerebro crea activamente un modelo interno 
@@ -32,8 +32,8 @@ const Neurociencia = () => {
             sensorial percibida (percepción) y los contenidos de las simulaciones utilizadas 
             para predecir los efectos del ser en el mundo del individuo.
           </p>
-          <br/>
-          <p>
+          <br className='md:block hidden'/>
+          <p className='md:block hidden'>
             La realidad virtual funciona de manera similar: utiliza la tecnología para crear 
             una experiencia virtual que los individuos pueden manipular y explorar como si 
             estuvieran en ella. En otras palabras, la tecnología de la VR intenta predecir 
