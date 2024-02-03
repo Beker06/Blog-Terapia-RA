@@ -75,7 +75,7 @@ const Navbar = () => {
             w-[var(--width)] h-[var(--height)]
             transition-all duration-500
             ease-in-out opacity-0 -z-10
-            ${navModal.isOpen ? '' : 'hidden'}
+            md:flex hidden
           `}
         >
         </div>
@@ -94,15 +94,15 @@ const Navbar = () => {
         >
           <div className="flex py-16">
             <ul className='flex flex-col w-full'>
-              <li className='flex w-full h-14 justify-center items-center shadow-sm shadow-gray-200/25 cursor-pointer hover:bg-slate-800' onClick={onToggle}><Link href='/#Portada'>Inicio</Link></li>
-              <li className='flex w-full h-14 justify-center items-center shadow-sm shadow-gray-200/25 cursor-pointer hover:bg-slate-800' onClick={onToggle}><Link href='/#VR'>VR</Link></li>
-              <li className='flex w-full h-14 justify-center items-center shadow-sm shadow-gray-200/25 cursor-pointer hover:bg-slate-800' onClick={onToggle}><Link href='/#Presencia'>Presencia</Link></li>
-              <li className='flex w-full h-14 justify-center items-center shadow-sm shadow-gray-200/25 cursor-pointer hover:bg-slate-800' onClick={onToggle}><Link href='/#Ventajas'>Ventajas</Link></li>
-              <li className='flex w-full h-14 justify-center items-center shadow-sm shadow-gray-200/25 cursor-pointer hover:bg-slate-800' onClick={onToggle}><Link href='/#Futuras'>Futuro</Link></li>
-              <li className='flex w-full h-14 justify-center items-center shadow-sm shadow-gray-200/25 cursor-pointer hover:bg-slate-800' onClick={onToggle}><Link href='/#Trastornos'>Trastornos</Link></li>
+              <Link href='/#Portada'><li className='flex w-full h-14 justify-center items-center shadow-sm shadow-gray-200/25 cursor-pointer hover:bg-slate-800' onClick={onToggle}>Inicio</li></Link>
+              <Link href='/#VR'><li className='flex w-full h-14 justify-center items-center shadow-sm shadow-gray-200/25 cursor-pointer hover:bg-slate-800' onClick={onToggle}>VR</li></Link>
+              <Link href='/#Presencia'><li className='flex w-full h-14 justify-center items-center shadow-sm shadow-gray-200/25 cursor-pointer hover:bg-slate-800' onClick={onToggle}>Presencia</li></Link>
+              <Link href='/#Ventajas'><li className='flex w-full h-14 justify-center items-center shadow-sm shadow-gray-200/25 cursor-pointer hover:bg-slate-800' onClick={onToggle}>Ventajas</li></Link>
+              <Link href='/#Futuras'><li className='flex w-full h-14 justify-center items-center shadow-sm shadow-gray-200/25 cursor-pointer hover:bg-slate-800' onClick={onToggle}>Futuro</li></Link>
+              <Link href='/#Trastornos'><li className='flex w-full h-14 justify-center items-center shadow-sm shadow-gray-200/25 cursor-pointer hover:bg-slate-800' onClick={onToggle}>Trastornos</li></Link>
               {/* <li><Link href='/'>Encuesta</Link></li> */}
-              <li className='flex w-full h-14 justify-center items-center shadow-sm shadow-gray-200/25 cursor-pointer hover:bg-slate-800' onClick={onToggle}><Link href='/#Conclusion'>Conclusion</Link></li>
-              <li className='flex w-full h-14 justify-center items-center shadow-sm shadow-gray-200/25 cursor-pointer hover:bg-slate-800' onClick={onToggle}><Link href='/#Referencias'>Referencias</Link></li>
+              <Link href='/#Conclusion'><li className='flex w-full h-14 justify-center items-center shadow-sm shadow-gray-200/25 cursor-pointer hover:bg-slate-800' onClick={onToggle}>Conclusion</li></Link>
+              <Link href='/#Referencias'><li className='flex w-full h-14 justify-center items-center shadow-sm shadow-gray-200/25 cursor-pointer hover:bg-slate-800' onClick={onToggle}>Referencias</li></Link>
             </ul>
           </div>
         </div>
